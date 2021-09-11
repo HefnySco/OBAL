@@ -19,6 +19,7 @@ Board design is very straighforward.
 
 Please contrinute & share your thoughts
 
+# Board 
 
 [![Obal Board Front](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/obal_board_front.png "Obal Schematic")](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/obal_board_front.png "Obal Board Front")
 
