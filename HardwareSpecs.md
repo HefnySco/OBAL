@@ -62,14 +62,14 @@ This module can output PWM signals upto 16 channels.
 
 
 
-####LED & Buzzer Driver: ULN2803APG
+#### LED & Buzzer Driver: ULN2803APG
 
 [![ULN2803APG_1](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/sensors/ULN2803APG_1.png "ULN2803APG_1")](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/sensors/ULN2803APG_1.png "ULN2803APG_1")
 
 This IC is used to control LEDs & Buzzer. Each two outputs of the 8 outputs of the IC are wired up together so there are 4 output ports that support high current. OBAL uses only 2  leds not three and a buzzer. So there is an extra port that can be used.
 
 
-
+[Buy] (https://www.aliexpress.com/item/32969638686.html?spm=a2g0o.productlist.0.0.531a5f7cXEnAeE&algo_pvid=3cff5f04-4ba7-4b57-93e6-c53ef1850f9a&algo_exp_id=3cff5f04-4ba7-4b57-93e6-c53ef1850f9a-1&pdp_ext_f=%7B%22sku_id%22%3A%2266573235928%22%7D)
 
 
 
