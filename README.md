@@ -36,3 +36,5 @@ The board enabled users to make it at home with simple soldering techniques. It 
 ## [Source Code](https://github.com/HefnySco/OBAL/blob/main/SourceCode.md "Source Code")
 
 
+## [How To Get](https://github.com/HefnySco/OBAL/blob/main/HowToGet.md "How To Get)
+
