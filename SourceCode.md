@@ -36,7 +36,45 @@ you can compile using the following command
 
 
 
-## Creating Service
+## Run ArduPilot
+
+ArduCopter:
+`sudo /home/pi/arducopter` (plus parameter) 
+
+ArduPlane:
+`sudo /home/pi/arduplane` (plus parameter) 
+
+ArduRover:
+`sudo /home/pi/ardurover` (plus parameter) 
+
+ArduSub:
+`sudo /home/pi/ardusub` (plus parameter) 
+
+
+start parameter | ArduPilot serial port 
+------------ | -------------
+-A | SERIAL0
+-B | SERIAL3
+-C | SERIAL1
+-D | SERIAL2
+-E | SERIAL4
+-F | SERIAL5
+
+Check http://ardupilot.org/copter/docs/parameters.html#serial0-baud-serial0-baud-rate to set the right value for `SERIALx_BAUD` and `SERIALx_PROTOCOL`
+
+To connect a MAVLink groundstation with IP 192.168.1.123 add `-C udp:192.168.1.123:14550`
+
+To use MAVLink via radio connected to Serial0 add `-C /dev/serial0`. 
+
+If there is a GPS connected to Serial1 add `-B /dev/serial1`. 
+
+Example: MAVLink groundstation with IP 192.168.178.26 on port 14550 via wifi and GPS connected to `/dev/serial0` and telemetry via OTG `/dev/serial1`.
+
+`sudo /home/pi/arducopter -A udp:192.168.1.123:14550 -B /dev/serial0 -C serial1`
+
+
+
+## Running as a Service
 
 create service file and edit it
 
@@ -72,4 +110,6 @@ Above file is for running rover but you can replace ardurover with other binarie
   
 `sudo systemctl start ardurover.service
 `
+
+
 
