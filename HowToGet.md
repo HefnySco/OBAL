@@ -26,3 +26,23 @@ One of many options is to fabricated [here](https://cart.jlcpcb.com/quote).
 
 [Buy](https://www.aliexpress.com/item/32817162654.html?spm=a2g0o.productlist.0.0.55997170mWAIaq&algo_pvid=feb3a693-f2d5-4752-ba96-89379533b8ff&algo_exp_id=feb3a693-f2d5-4752-ba96-89379533b8ff-2&pdp_ext_f=%7B%22sku_id%22%3A%2210000000609239300%22%7D)
 
+
+
+
+#### Led & Buzzer Drive ULN2803
+
+[Buy](https://www.sparkfun.com/products/312)
+
+#### Resistos R1 & R2
+
+[R1 10KOhm](https://www.amazon.com/Chanzon-Resistor-Tolerance-Resistors-Certificated/dp/B08QRTQVP1/ref=sr_1_4?dchild=1&keywords=0805+SMD+10K&qid=1631543411&sr=8-4>)
+
+[R2 470Ohm](https://www.amazon.com/470-ohm-Resistor-Resistors-Tolerance/dp/B07DHGBR3W/ref=sr_1_2?dchild=1&keywords=0805+SMD+470&qid=1631543390&sr=8-2>)
+
+
+#### LED 1W
+
+[Buy](https://www.amazon.com/HiLetgo-20pcs-Power-Light-80-90LM/dp/B07RQ57TM5/ref=sr_1_5?dchild=1&keywords=LED+Power+1W&qid=1631543937&sr=8-5). Any LEDs can work here even the normal small leds. Please remember to connect a 1K resistor in series with each LED.
+
+#### Active Buzzer 5V
+[Buy](https://www.banggood.com/5-PCS-Super-Loud-5V-Active-Alarm-Buzzer-Beeper-Tracker-9+5_5mm-for-RC-MultiRotor-FPV-Racing-Drone-p-1117207.html?gmcCountry=US&currency=USD&cur_warehouse=CN&createTmp=1&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=sandra&utm_campaign=sandra-ssc-us-all-0407&ad_id=512762581403&gclid=CjwKCAjw7fuJBhBdEiwA2lLMYZdcBKraXyTI-cDNRRcjE187jHpMr6ru5ZWuEifklgJrqVT3NawvwxoC-ocQAvD_BwE)
