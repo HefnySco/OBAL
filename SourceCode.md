@@ -51,7 +51,7 @@ ArduSub:
 `sudo /home/pi/ardusub` (plus parameter) 
 
 
-start parameter | ArduPilot serial port 
+Start Parameter | ArduPilot Serial Port 
 ------------ | -------------
 -A | SERIAL0
 -B | SERIAL3

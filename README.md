@@ -38,3 +38,5 @@ The board enabled users to make it at home with simple soldering techniques. It 
 
 ## [How To Get](https://github.com/HefnySco/OBAL/blob/main/HowToGet.md "How To Get")
 
+
+[![How to Build the Board?](https://youtu.be/IYnP74YXaKA)]
