@@ -1,6 +1,9 @@
 # SourceCode
 
 
+[![How to Compile Ardupilot Software & Install it on Raspberry?](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/youtube_how_to_Compile_AP_SW.png)](https://youtu.be/mYn49GbUL8Y "How to Compile Ardupilot Software & Install it on Raspberry?")
+
+
 ## Building The Code
 
 This board does not have any closed source or special drivers. Any Raspberry-Pi board will do the job. All you need is to compile Ardupilot from its main repository. It is straightforward.
