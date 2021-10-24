@@ -17,3 +17,6 @@ Green Text: not used but can be used.
 
 To Know how to setup for PPM please refer to this PR: https://github.com/HefnySco/ardupilot/tree/tip_ppm
 
+## How To Customize OBAL ?
+
+[![How to Port Ardupilot Software to your OWN Custom Board ?](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/HowtoPortArdupilotSoftwaretoyourOWNCustomBoard.png)](https://youtu.be/ci9317JAEM0 "How to Port Ardupilot Software to your OWN Custom Board ?")
