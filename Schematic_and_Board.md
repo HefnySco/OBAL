@@ -27,6 +27,14 @@ Please contrinute & share your thoughts
 [![Obal Board Back](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/obal_board_back.png "Obal Schematic")](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/obal_board_back.png "Obal Board Back")
 
 
+**Get PCB Files:** 
 
 Gerber file is available to download [here](https://github.com/HefnySco/OBAL/tree/main/Hardware). 
 One of many options is to fabricated [here](https://cart.jlcpcb.com/quote).
+
+
+
+[![How to design Ardupilot-Compatible Board ?](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/HowtodesignArdupilotCompatibleBoard.png)](https://youtu.be/DcoUxdn5NhM "How to design Ardupilot-Compatible Board ?")
+
+
+
