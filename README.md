@@ -31,6 +31,7 @@ The board enabled users to make it at home with simple soldering techniques. It 
 
 ## [Schematic & Board](https://github.com/HefnySco/OBAL/blob/main/Schematic_and_Board.md "Schematic & Board")
 
+## [Board Pins & Wiring](https://github.com/HefnySco/OBAL/blob/main/BoardPins.md "How To Get")
 
 
 ## [Source Code](https://github.com/HefnySco/OBAL/blob/main/SourceCode.md "Source Code")
@@ -41,3 +42,7 @@ The board enabled users to make it at home with simple soldering techniques. It 
 
 [![How to Build the Board](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/youtube.png)](https://youtu.be/IYnP74YXaKA "How to Build the Board")
 
+
+### Contact Me @email: mohammad.hefny@gmail.com
+
+Please share your experience with this board to increase knowledge. Also please suggest enhancements and updates.
