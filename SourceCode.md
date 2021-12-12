@@ -75,7 +75,7 @@ To use MAVLink via radio connected to Serial0 add `-C /dev/serial0`.
 
 If there is a GPS connected to Serial1 add `-B /dev/serial1`. 
 
-Note: OBAL board is serial 0
+Note: OBAL board default port is serial 0
 
 Example: MAVLink groundstation with IP 192.168.178.26 on port 14550 via wifi and GPS connected to `/dev/serial0` and telemetry via OTG `/dev/serial1`.
 
