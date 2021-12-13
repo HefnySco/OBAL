@@ -46,3 +46,7 @@ The board enabled users to make it at home with simple soldering techniques. It 
 ### Contact Me @email: mohammad.hefny@gmail.com
 
 Please share your experience with this board to increase knowledge. Also please suggest enhancements and updates.
+
+### [Ideas & Discussions](https://github.com/HefnySco/OBAL/discussions) "Ideas & Discussions")
+
+## [Projects using OBAL](https://github.com/HefnySco/OBAL/blob/main/Projects.md "Projects using OBAL")
