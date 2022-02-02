@@ -14,3 +14,11 @@ This slight modification reduces space occupied by the sensors and reduce number
 The overall performance is much the same as original OBAL. The whole point is now you can add extra BMP180 without I2C address conflict.
 
 
+If you already have the original OBAL board you can still use this sensor on it. But in this case you need to wire it externally. You will need to use CS1 of SPI1 as well. It is already available. Because OBAL is more like LEGO you can use any board with any sensor.
+
+[![Original OBAL with GY-91](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/obal_org_w_gy91.png "Original OBAL with GY-91")](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/obal_org_w_gy91.png "Original OBAL with GY-91")
+
+
+
+
+
