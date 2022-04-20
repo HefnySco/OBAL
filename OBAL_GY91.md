@@ -20,11 +20,13 @@ If you already have the original OBAL board you can still use this sensor on it.
 
 
 
-The software installation and other sensors and wiring are all identical. There is no any change. However you need to compile Ardupilot to recognize the new sensors. That is why I created a new branch [here](https://github.com/HefnySco/ardupilot/tree/pr_OBAL_GY-91_v1 "here")]. Changes are limited to two files. if you are familiar with git you can edit them manually into the master code or Ardupilot.
+The software installation and other sensors and wiring are all identical. There is no any change. However you need to compile Ardupilot to recognize the new sensors. That is why I created a new branch [here](https://github.com/HefnySco/ardupilot/tree/pr_OBAL_GY-91_v1 "here"). Changes are limited to two files. if you are familiar with git you can edit them manually into the master code or Ardupilot.
 
 Please note that original OBAL is part of Ardupilot master code as well as release version for Copter & Plane. So you can download the latest version of the source code from Ardupilot and apply these slight changes and that is it.
 
 
+Gerber file of OBAL_GY91 is [here](https://github.com/HefnySco/OBAL/tree/main/Hardware).
+One of many options is to fabricated [here](https://cart.jlcpcb.com/quote).
 
 
 
