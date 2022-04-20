@@ -38,7 +38,7 @@ you can compile using the following command
 ## Deploy Binary
 
 1. Copy ardupilot binary to /home/pi .
-2. Create empty file /home/pi/ardu.parm using touch /home/pi/ardu.parm you can add any initialization parameters to this file.
+2. Create empty file /home/pi/ardu.parm using `touch /home/pi/ardu.parm` you can add any initialization parameters to this file.
 
 
 
