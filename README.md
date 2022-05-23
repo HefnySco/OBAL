@@ -1,3 +1,6 @@
+This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International License.
+[![Creative Commons Attribution-ShareAlike 4.0 International License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png "Creative Commons Attribution-ShareAlike 4.0 International License")](http://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International License")
+
 # Open Board Architecture for Linux - OBAL
 
 OBAL is a new Linux-based board for Ardupilot called Open-Board Architecture for Linux  (OBAL). It is designed to be simple to build by professionals as well as hobbyists.
