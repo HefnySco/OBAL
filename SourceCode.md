@@ -122,3 +122,38 @@ Above file is for running rover but you can replace ardurover with other binarie
 
 
 
+## CPU Affinity
+When running RPI-4 or RPI-Zero 2W and using Camera or running other software with ardupilot, it is recommended to give ardupilot 1 or 2 dedicated CPUs to run on. This enhannce Ardupilot schedule timing as we are not running Linux-RT.
+
+The below image shows cpu status using htop when cpu 3 & 4 are isolated using [isocpus](https://rt-labs.com/docs/p-net/prepare_raspberrypi.html#advanced-users-only-control-linux-real-time-properties "isocpus")=2,3
+
+
+[![cpu-affinity](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/cpu_affinity.png "cpu-affinity")](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/cpu_affinity.png "cpu-affinity")
+
+> yes values 2 & 3 are mapped to cpu 3 & 4yes values 2 & 3 are mapped to cpu 3 & 4
+
+
+#### Steps for using CPU-Affinity Feature is easy.
+First free one or more cpus in RPI by adding **isolcpus** to **/boot/cmdline.txt**
+for example below is execution of 
+```bash
+cat /boot/cmdline.txt
+```
+
+```bash
+console=tty1 root=PARTUUID=d9b3f436-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait modules-load=dwc2,g_ether quiet splash plymouth.ignore-serial-consoles isolcpus=2,3
+```
+
+**You need to reboot here.**
+
+`sudo reboot now`
+
+in Ardupilot you need to add parameter **-c**  or **--cpu-affinity**
+for example:
+
+```bash
+/home/pi/ardurover -A  udp:**YourTargetIP**:14550:bcast -B /dev/serial0 -c 2,3
+```
+
+
+
