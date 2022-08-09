@@ -6,7 +6,7 @@
 
 ## Download 
 
-Download Binaries from [here](https://drive.google.com/drive/folders/1e5yGQsX_wOOnu_0mpdkT8hTYvYcqudqF?usp=sharing). You can find different folders for different boards and configuration.
+Download Binaries from [here](https://firmware.ardupilot.org/).  Select vehicle type then search for OBAL. For obal copter [version 4.2.2 ](https://firmware.ardupilot.org/Copter/stable-4.2.2/obal/)
 
 ## Building The Code
 
@@ -38,7 +38,16 @@ you can compile using the following command
 ## Deploy Binary
 
 1. Copy ardupilot binary to /home/pi .
-2. Create empty file /home/pi/ardu.parm using `touch /home/pi/ardu.parm` you can add any initialization parameters to this file.
+2. Create empty file /home/pi/ardu.parm using `touch /home/pi/ardu.parm` you can add any initialization parameters to this file. For example for Quadcopter X configuration:
+
+create ardupilot.parm with the following data.
+
+`SYSID_THISMAV    1`
+
+`FRAME_CLASS 1`
+
+`FRAME_TYPE  1`
+
 
 
 
@@ -123,7 +132,7 @@ Above file is for running rover but you can replace ardurover with other binarie
 
 
 ## CPU Affinity
-When running RPI-4 or RPI-Zero 2W and using Camera or running other software with ardupilot, it is recommended to give ardupilot 1 or 2 dedicated CPUs to run on. This enhannce Ardupilot schedule timing as we are not running Linux-RT.
+When running **RPI-4** or **RPI-Zero 2W **and using Camera or running other software with ardupilot, it is recommended to give ardupilot 1 or 2 dedicated CPUs to run on. This enhannce Ardupilot schedule timing as we are not running Linux-RT.
 
 The below image shows cpu status using htop when cpu 3 & 4 are isolated using [isocpus](https://rt-labs.com/docs/p-net/prepare_raspberrypi.html#advanced-users-only-control-linux-real-time-properties "isocpus")=2,3
 

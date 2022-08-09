@@ -8,7 +8,7 @@ To enable them you need to execute command.
 
 `sudo raspi-config
 `
-And interface will appear like the image below, and you can easily go through it to enable I2C & SPI.
+An interface will appear like the image below, and you can easily go through it to enable I2C & SPI.
 
 [![Interface Options](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/rpi_config_interface_options.png "Enable SPI")](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/rpi_config_interface_options.png "Interface Options")
 
@@ -25,9 +25,9 @@ You then need to reboot the board and login again.
 `sudo reboot now
 `
 
-##Change I2C Bus Speed
+## Change I2C Bus Speed
 
-Now you need to enable I2C bus speed 400KHz. This is a simple step. run command:
+Now you need to **enable I2C bus speed 400KHz**. This is a simple step. run command:
 
 `sudo nano /boot/config.txt
 `
