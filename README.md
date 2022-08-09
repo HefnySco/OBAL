@@ -37,6 +37,7 @@ The board enabled users to make it at home with simple soldering techniques. It 
 
 ## [Board Pins & Wiring](https://github.com/HefnySco/OBAL/blob/main/BoardPins.md "How To Get")
 
+## [Configuring Raspberry](https://github.com/HefnySco/OBAL/blob/main/ConfiguringRaspberry.md "Source Code")
 
 ## [Source Code](https://github.com/HefnySco/OBAL/blob/main/SourceCode.md "Source Code")
 
