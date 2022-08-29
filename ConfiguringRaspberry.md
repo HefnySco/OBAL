@@ -1,5 +1,12 @@
 # Configuring Raspberry
 
+
+## Raspberry Pi OS Lite (Legacy)
+
+**IMPORTANT**
+OBAL is tested on [Raspberry Pi OS Lite (Legacy)](https://www.raspberrypi.com/software/operating-systems/ "Raspberry Pi OS Lite (Legacy)"), you are welcome to try it on other versions and please share your experience.
+
+
 ## Enable SPI & I2C Buses
 
 It is important to enable I2C & SPI Buses. These are two interfaces that are needed to communicate with sensors on the board.

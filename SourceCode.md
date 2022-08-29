@@ -3,6 +3,9 @@
 
 [![How to Compile Ardupilot Software & Install it on Raspberry?](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/youtube_how_to_Compile_AP_SW.png)](https://youtu.be/mYn49GbUL8Y "How to Compile Ardupilot Software & Install it on Raspberry?")
 
+**IMPORTANT Raspberry Pi OS Lite (Legacy)**
+OBAL is tested on [Raspberry Pi OS Lite (Legacy)](https://www.raspberrypi.com/software/operating-systems/ "Raspberry Pi OS Lite (Legacy)"), you are welcome to try it on other versions and please share your experience.
+
 
 ## Download 
 
