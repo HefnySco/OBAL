@@ -4,6 +4,10 @@ This work is licensed under Creative Commons Attribution-ShareAlike 4.0 Internat
 
 # Open Board Architecture for Linux - OBAL
 
+
+[![Obal Board 3D](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/Obal3D.png "Obal Board 3D")](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/Obal3D.png "Obal Board 3D")
+
+
 OBAL is a new Linux-based board for Ardupilot called Open-Board Architecture for Linux  (OBAL). It is designed to be simple to build by professionals as well as hobbyists.
 
 OBAL acts as a simple board with necessary sensors that can be upgraded easily. The board is built over Raspberry Pi. It can use Raspberry Pi 2,3,4 & zero.
