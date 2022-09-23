@@ -26,39 +26,11 @@ The board also has a safety switch that prevents the motors from turning on. The
 The board enabled users to make it at home with simple soldering techniques. It uses breakouts that are famous and available worldwide. Only two SMD resistors are required and it is not that hard to solder.
 
 
-## [Hardware Specification](https://github.com/HefnySco/OBAL/blob/main/HardwareSpecs.md "Hardware Specification")
+
+Please refer to WIKI for full details.
+## [Hardware Specification](https://github.com/HefnySco/OBAL/wiki "WIKI")
 
 
-## [Raspberry Pi Wiring](https://github.com/HefnySco/OBAL/blob/main/RPIWiring.md "Raspberry Pi Wiring")
-
-
-
-## [Schematic & Board](https://github.com/HefnySco/OBAL/blob/main/Schematic_and_Board.md "Schematic & Board")
-
-## [Board Pins & Wiring](https://github.com/HefnySco/OBAL/blob/main/BoardPins.md "How To Get")
-
-## [Configuring Raspberry](https://github.com/HefnySco/OBAL/blob/main/ConfiguringRaspberry.md "Configuring Raspberry")
-
-## [Build and Install](https://github.com/HefnySco/OBAL/blob/main/SourceCode.md "Build and Install")
-
-
-## [How To Get](https://github.com/HefnySco/OBAL/blob/main/HowToGet.md "How To Get")
-
-
-[![How to Build the Board](https://raw.githubusercontent.com/HefnySco/OBAL/main/images/youtube.png)](https://youtu.be/IYnP74YXaKA "How to Build the Board")
-
-
-
-## [Projects using OBAL](https://github.com/HefnySco/OBAL/blob/main/Projects.md "Projects using OBAL")
-
-### Contact Me @email: mohammad.hefny@gmail.com
-
-Please share your experience with this board to increase knowledge. Also please suggest enhancements and updates.
-
-### [Ideas & Discussions](https://github.com/HefnySco/OBAL/discussions "Ideas & Discussions")
-
-
-### [OBAL GY-91 2022](https://github.com/HefnySco/OBAL/blob/main/OBAL_GY91.md "OBAL GY-91 ver 1.0")
-
+feel free to email me: [Hardware Specification](email:mohammad.hefny@gmail.com "mohammad.hefny@gmail.com") for any extra support.
 
 THE DESIGN IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS DESIGN INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS DESIGN.
