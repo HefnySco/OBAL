@@ -1,0 +1,41 @@
+From d891b37fdaccc1ea98f21b63243b02f232b39ee6 Mon Sep 17 00:00:00 2001
+From: HefnySco <mohammad.hefny@gmail.com>
+Date: Fri, 22 Oct 2021 16:00:26 +0200
+Subject: [PATCH] PPM-Test
+
+---
+ libraries/AP_HAL_Linux/RCInput_RPI.cpp | 4 +---
+ libraries/AP_HAL_Linux/RCInput_RPI.h   | 2 +-
+ 2 files changed, 2 insertions(+), 4 deletions(-)
+
+diff --git a/libraries/AP_HAL_Linux/RCInput_RPI.cpp b/libraries/AP_HAL_Linux/RCInput_RPI.cpp
+index d34dbafe2d..7a0d852001 100644
+--- a/libraries/AP_HAL_Linux/RCInput_RPI.cpp
++++ b/libraries/AP_HAL_Linux/RCInput_RPI.cpp
+@@ -55,9 +55,7 @@ static uint16_t RcChnGpioTbl[RCIN_RPI_CHN_NUM] = {
+ #define RCIN_RPI_SIG_HIGH        0
+ #define RCIN_RPI_SIG_LOW         1
+ static uint16_t RcChnGpioTbl[RCIN_RPI_CHN_NUM] = {
+-    RPI_GPIO_<5>(),  RPI_GPIO_<6>(),  RPI_GPIO_<13>(),
+-    RPI_GPIO_<19>(), RPI_GPIO_<26>(), RPI_GPIO_<21>(), 
+-    RPI_GPIO_<20>(), RPI_GPIO_<16>()
++    RPI_GPIO_<5>()
+ };
+ #else
+ #define RCIN_RPI_SIG_HIGH        1
+diff --git a/libraries/AP_HAL_Linux/RCInput_RPI.h b/libraries/AP_HAL_Linux/RCInput_RPI.h
+index 04808af443..6ae64982ab 100644
+--- a/libraries/AP_HAL_Linux/RCInput_RPI.h
++++ b/libraries/AP_HAL_Linux/RCInput_RPI.h
+@@ -24,7 +24,7 @@
+ #if CONFIG_HAL_BOARD_SUBTYPE == HAL_BOARD_SUBTYPE_LINUX_BH
+ #define RCIN_RPI_CHN_NUM 8
+ #elif CONFIG_HAL_BOARD_SUBTYPE == HAL_BOARD_SUBTYPE_LINUX_OBAL_V1
+-#define RCIN_RPI_CHN_NUM 8
++#define RCIN_RPI_CHN_NUM 1
+ #else
+ #define RCIN_RPI_CHN_NUM 1
+ #endif
+-- 
+2.34.1
+
