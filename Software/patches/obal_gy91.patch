@@ -32,13 +32,8 @@ index 1bbdcddd5f..81c7f7f5ac 100644
 +    #ifdef HAL_BOARD_SUBTYPE_LINUX_OBAL_V1_GY_91_SPI
 +        #define HAL_BOARD_STORAGE_DIRECTORY "/home/pi/ardupilot.gy91"
 +        #define HAL_BOARD_LOG_DIRECTORY "/home/pi/ardupilot.gy91/logs"
-<<<<<<< HEAD
-+        #define HAL_PARAM_DEFAULTS_PATH "/home/pi/ardupilot.parm"
-+    
-=======
 +        #define HAL_BOARD_TERRAIN_DIRECTORY "/home/pi/ardupilot/terrain"
 +        #define HAL_PARAM_DEFAULTS_PATH "/home/pi/ardupilot.parm"
->>>>>>> 3c9d4f7221c10371119f50eb9c78f6e3425fe7db
 +        #define HAL_INS_PROBE_LIST PROBE_IMU_SPI(Invensense, "mpu9250", ROTATION_NONE)
 +        #define HAL_MAG_PROBE_LIST PROBE_MAG_IMU(AK8963, mpu9250, 0, ROTATION_NONE)
 +        #define HAL_BARO_PROBE_LIST PROBE_BARO_SPI(BMP280, "bmp280")
